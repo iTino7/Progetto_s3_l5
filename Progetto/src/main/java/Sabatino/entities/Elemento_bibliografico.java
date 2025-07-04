@@ -8,17 +8,17 @@ import jakarta.persistence.InheritanceType;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
-public abstract class elemento_bibliografico {
+public abstract class Elemento_bibliografico {
     @Id
     private String isbn;
     private String titolo;
     private int anno_pubblicazione;
     private int numero_pagine;
 
-    public elemento_bibliografico() {
+    public Elemento_bibliografico() {
     }
 
-    public elemento_bibliografico(String isbn, String titolo, int anno_pubblicazione, int numero_pagine) {
+    public Elemento_bibliografico(String isbn, String titolo, int anno_pubblicazione, int numero_pagine) {
         this.isbn = isbn;
         this.titolo = titolo;
         this.anno_pubblicazione = anno_pubblicazione;
@@ -55,7 +55,7 @@ public abstract class elemento_bibliografico {
 
     @Override
     public String toString() {
-        return "elemento_bibliografico{" +
+        return "Elemento_bibliografico{" +
                 "isbn='" + isbn + '\'' +
                 ", titolo='" + titolo + '\'' +
                 ", anno_pubblicazione=" + anno_pubblicazione +
