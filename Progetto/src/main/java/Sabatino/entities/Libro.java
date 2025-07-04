@@ -34,5 +34,5 @@ public class Libro extends Elemento_bibliografico {
         this.genere = genere;
     }
 
-    
+
 }
