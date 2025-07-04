@@ -4,6 +4,10 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
     <persistence-unit name="progettobibliografico">
+        <class>Sabatino.entities.Elemento_bibliografico</class>
+        <class>Sabatino.entities.Libro</class>
+        <class>Sabatino.entities.Rivista</class>
+        <class>Sabatino.entities.Utente</class>
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/bibliografico"/>
             <property name="javax.persistence.jdbc.user" value="postgres"/>
