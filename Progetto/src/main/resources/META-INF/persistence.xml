@@ -8,6 +8,7 @@
         <class>Sabatino.entities.Libro</class>
         <class>Sabatino.entities.Rivista</class>
         <class>Sabatino.entities.Utente</class>
+        <class>Sabatino.entities.Prestito</class>
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/bibliografico"/>
             <property name="javax.persistence.jdbc.user" value="postgres"/>
